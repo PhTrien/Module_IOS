@@ -29,6 +29,8 @@ if (ua.includes("Locket")) {
         video: "enabled",
         custom_widget_frames: "enabled",
         streak_recovery: "enabled",
+        palette_caption: "enabled",
+        color_palette: "enabled",
     });
 
     // ============================================================
@@ -86,6 +88,7 @@ if (ua.includes("Locket")) {
         "locket_count",
         "color",
         "palette",
+        "color_palette",
         "poll",
         "voting",
     ]);
@@ -94,6 +97,8 @@ if (ua.includes("Locket")) {
         suggestions_enabled: true,
     });
     obj.entries.captions_enabled = "true";
+    obj.entries.palette_caption_enabled = "true";
+    obj.entries.color_palette_enabled = "true";
     obj.entries.music_caption_enabled = "true";
     obj.entries.music_caption_song_preview_enabled = "true";
     obj.entries.link_caption_link_enabled = "true";
@@ -120,6 +125,11 @@ if (ua.includes("Locket")) {
                     overlay_id: "caption:palette",
                     source: "local",
                     caption: { type: "palette" },
+                },
+                {
+                    overlay_id: "caption:color_palette",
+                    source: "local",
+                    caption: { type: "color_palette" },
                 },
                 {
                     overlay_id: "caption:music",
@@ -422,12 +432,56 @@ if (ua.includes("Locket")) {
             section: "🎨 Gradient Tự Gõ Chữ",
             items: [
                 {
-                    overlay_id: "caption:cyberpunk_neon",
+                    overlay_id: "caption:galaxy",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Galaxy",
                     caption: {
-                        background: { colors: ["#00F260", "#0575E6"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#5733FF", "#FF33B5"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
+                        text: "Galaxy",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#5733FF", "#FF33B5"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Galaxy",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cyberpunk_neon",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Cyberpunk",
+                    caption: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#00F260", "#0575E6"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Cyberpunk",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#00F260", "#0575E6"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
                         text: "Cyberpunk",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -435,23 +489,55 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:pastel_dream",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Pastel Dream",
                     caption: {
-                        background: { colors: ["#A18CD1", "#FBC2EB"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#A18CD1", "#FBC2EB"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Pastel Dream",
-                        text_color: "#333333",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#A18CD1", "#FBC2EB"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Pastel Dream",
+                        text_color: "#FFFFFF",
                         type: "static_content",
                     },
                 },
                 {
                     overlay_id: "caption:matcha_latte",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Matcha Latte",
                     caption: {
-                        background: { colors: ["#A8BBA2", "#5D7052"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#A8BBA2", "#5D7052"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
+                        text: "Matcha Latte",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#A8BBA2", "#5D7052"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
                         text: "Matcha Latte",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -459,11 +545,27 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:midnight_wine",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Midnight Wine",
                     caption: {
-                        background: { colors: ["#2C001E", "#7A003C"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#2C001E", "#7A003C"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
+                        text: "Midnight Wine",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#2C001E", "#7A003C"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
                         text: "Midnight Wine",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -471,23 +573,55 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:aurora_green",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Aurora",
                     caption: {
-                        background: { colors: ["#43E97B", "#38F9D7"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#43E97B", "#38F9D7"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Aurora",
-                        text_color: "#1E3C2B",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#43E97B", "#38F9D7"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Aurora",
+                        text_color: "#FFFFFF",
                         type: "static_content",
                     },
                 },
                 {
                     overlay_id: "caption:sunset_glow",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Sunset Glow",
                     caption: {
-                        background: { colors: ["#FA709A", "#FEE140"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#FA709A", "#FEE140"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
+                        text: "Sunset Glow",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#FA709A", "#FEE140"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
                         text: "Sunset Glow",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -495,11 +629,27 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:sweet_lavender",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Sweet Lavender",
                     caption: {
-                        background: { colors: ["#D8B4FE", "#818CF8"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#D8B4FE", "#818CF8"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
+                        text: "Sweet Lavender",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#D8B4FE", "#818CF8"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
                         text: "Sweet Lavender",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -507,11 +657,27 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:monochrome_dark",
+                    overlay_type: "caption",
                     source: "remote",
+                    alt_text: "Monochrome Dark",
                     caption: {
-                        background: { colors: ["#232526", "#414345"] },
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#232526", "#414345"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
+                        text: "Monochrome Dark",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#232526", "#414345"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
                         text: "Monochrome Dark",
                         text_color: "#FFFFFF",
                         type: "static_content",
