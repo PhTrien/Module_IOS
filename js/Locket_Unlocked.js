@@ -132,8 +132,170 @@ if (ua.includes("Locket")) {
             ],
         },
         {
-            section: "Trang trí",
+            section: "🎨 Holiday Caption",
             items: [
+                {
+                    overlay_id: "caption:autumn_2026",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFE0A0", "#F6A53A"] },
+                        icon: { data: "🍂", type: "emoji" },
+                        max_lines: 1,
+                        text: "Xin chào Mùa Thu",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:halloween_2026",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#150804", "#C8540D"] },
+                        icon: { data: "🎃", type: "emoji" },
+                        max_lines: 1,
+                        text: "Halloween",
+                        text_color: "#FFB182",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:forgotten_island",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            image: {
+                                data: "https://public.locketcamera.com/locket-public/overlays/forgotten_island/forgotten_island_bg.png",
+                                source: "url",
+                                type: "image",
+                            },
+                            colors: [],
+                        },
+                        max_lines: 1,
+                        text: "NO MEMORY LEFT BEHIND",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+            ],
+        },
+        {
+            section: "🎨 Suggest Caption",
+            items: [
+                {
+                    overlay_id: "caption:galaxy",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#5733FF", "#FF33B5"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:peachy",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF9500", "#FF2D95"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:sunset",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF5733", "#FFC300"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:aqua_fresh",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#33FF57", "#33CFFF"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cotton_candy",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#00B5FF", "#FFB6C1"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:ocean",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#00C6FF", "#0072FF"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:bubblegum",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF85B3", "#FFDDC1"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#333333",
+                        type: "static_content",
+                    },
+                },
+            ],
+        },
+        {
+            section: "🎨 Decorative by Locket",
+            items: [
+                {
+                    overlay_id: "caption:miss_you_korean",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#6D9EEB", "#6D9EEB"] },
+                        max_lines: 1,
+                        text: "보고 싶어 🥺",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cool_korean",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#E08AFF", "#FFA5E7"] },
+                        max_lines: 1,
+                        text: "쌈뽕 ✨",
+                        text_color: "#000000E6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:food_korean",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFD658", "#FFD658"] },
+                        max_lines: 1,
+                        text: "존맛 😋",
+                        text_color: "#000000",
+                        type: "static_content",
+                    },
+                },
                 {
                     overlay_id: "caption:party_time",
                     source: "remote",
@@ -201,6 +363,521 @@ if (ua.includes("Locket")) {
                         text: "Miss you",
                         text_color: "#FFFFFFDB",
                         type: "static_content",
+                    },
+                },
+            ],
+        },
+        {
+            section: "🎨 Decorative by Dio",
+            items: [
+                {
+                    overlay_id: "caption:feeling_cute",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFB199", "#FF6A88"] },
+                        icon: { data: "🌷", type: "emoji" },
+                        max_lines: 1,
+                        text: "Feeling Cute",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:wedding_times",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFE4E1", "#E73C7E"] },
+                        icon: { data: "💍", type: "emoji" },
+                        max_lines: 1,
+                        text: "Wedding Time!",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:felling_happy",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#F9D3E0", "#EE719E"] },
+                        icon: { data: "💝", type: "emoji" },
+                        max_lines: 1,
+                        text: "Cảm thấy hạnh phúc",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:coffee_time",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#B48E72", "#4B2C20"] },
+                        icon: { data: "☕", type: "emoji" },
+                        max_lines: 1,
+                        text: "Coffee Time!",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:snake_vibes",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#8BFF4D", "#055200"] },
+                        icon: { data: "🐍", type: "emoji" },
+                        max_lines: 1,
+                        text: "Snake Vibes",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:mixue_times",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#E0F7FA", "#FFCDD2"] },
+                        icon: { data: "🍦", type: "emoji" },
+                        max_lines: 1,
+                        text: "Mixue Time!",
+                        text_color: "#4E0000E6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:locket_times",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFDEE9", "#B5FFFC"] },
+                        icon: { data: "📸", type: "emoji" },
+                        max_lines: 1,
+                        text: "Locket Time!",
+                        text_color: "#202020E6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cinema_theme_001",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#3B3B5A", "#1C1C2E"] },
+                        icon: { data: "🎬", type: "emoji" },
+                        max_lines: 1,
+                        text: "Cinema Time!",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:dating_times",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF9A9E", "#F6416C"] },
+                        icon: { data: "💕", type: "emoji" },
+                        max_lines: 1,
+                        text: "Dating Time!",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:graduation_theme_001",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#4E4C8C", "#1E1E2F"] },
+                        icon: { data: "🎓", type: "emoji" },
+                        max_lines: 1,
+                        text: "Happy Graduation Day!",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:shopping_time",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFF1EB", "#ACE0F9"] },
+                        icon: { data: "🛍️", type: "emoji" },
+                        max_lines: 1,
+                        text: "Shopping Time!",
+                        text_color: "#1A1A1A",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:dinner_times",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFD3A5", "#FD6585"] },
+                        icon: { data: "🍽️", type: "emoji" },
+                        max_lines: 1,
+                        text: "Dinner Time!",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:chilling_time",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#D8B4FE", "#FBCFE8"] },
+                        icon: { data: "🌴", type: "emoji" },
+                        max_lines: 1,
+                        text: "Chilling Time!",
+                        text_color: "#3A0D3C",
+                        type: "static_content",
+                    },
+                },
+            ],
+        },
+        {
+            section: "🎨 Caption Icon - Truy cập sớm",
+            items: [
+                {
+                    overlay_id: "caption:indicator_halloween",
+                    source: "remote",
+                    caption: {
+                        background: {},
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/halloween_indicator%403x.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        is_editable: true,
+                        max_lines: 1,
+                        text: "",
+                        text_color: "#FFFFFFE6",
+                        type: "caption_image",
+                    },
+                },
+                {
+                    overlay_id: "caption:indicator_christmas",
+                    source: "remote",
+                    caption: {
+                        background: {},
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/christmas_indicator%403x.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        is_editable: true,
+                        max_lines: 1,
+                        text: "",
+                        text_color: "#FFFFFFE6",
+                        type: "caption_image",
+                    },
+                },
+                {
+                    overlay_id: "caption:indicator_st_patricks",
+                    source: "remote",
+                    caption: {
+                        background: {},
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/st_patricks_indicator%403x.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        is_editable: true,
+                        max_lines: 1,
+                        text: "",
+                        text_color: "#FFFFFFE6",
+                        type: "caption_image",
+                    },
+                },
+                {
+                    overlay_id: "caption:indicator_valentines",
+                    source: "remote",
+                    caption: {
+                        background: {},
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/valentines_indicator%403x.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        is_editable: true,
+                        max_lines: 1,
+                        text: "",
+                        text_color: "#FFFFFFE6",
+                        type: "caption_image",
+                    },
+                },
+            ],
+        },
+        {
+            section: "🎨 Cung hoàng đạo",
+            items: [
+                {
+                    overlay_id: "caption:star_sign_aries",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#FF2400", "#FF5733"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Aries.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Bạch Dương",
+                        text_color: "#FFFFFF",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_taurus",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#55BE55", "#228B22"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Taurus.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Kim Ngưu",
+                        text_color: "#FFFFFF",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_gemini",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#FFFF00", "#FFED01"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Gemini.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Song Tử",
+                        text_color: "#875F02",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_cancer",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#C0D0E5", "#B0C4DE"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Cancer.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Cự Giải",
+                        text_color: "#0A274C",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_leo",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#FFD700", "#FFF01A"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Leo.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Sư Tử",
+                        text_color: "#392B03",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_virgo",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#808000", "#9E9E1E"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Virgo.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Xử Nữ",
+                        text_color: "#FFFFFF",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_libra",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#FFB6C1", "#FFDDEA"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Libra.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Thiên Bình",
+                        text_color: "#A02D42",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_scorpio",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#A23E48", "#5C1A1B"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Scorpio.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Bọ Cạp",
+                        text_color: "#FFFFFF",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_sagittarius",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#E6B980", "#C77900"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Sagittarius.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Nhân Mã",
+                        text_color: "#FFFFFF",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_capricorn",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#B0B0B0", "#4F4F4F"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Capricorn.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Ma Kết",
+                        text_color: "#FFFFFF",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_aquarius",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#A0E7E5", "#0096C7"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Aquarius.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Bảo Bình",
+                        text_color: "#003178",
+                        type: "star_sign",
+                    },
+                },
+                {
+                    overlay_id: "caption:star_sign_pisces",
+                    source: "remote",
+                    caption: {
+                        background: {
+                            colors: ["#B5EAD7", "#5F9EA0"],
+                            image: {
+                                data: "star_sign_background",
+                                source: "local",
+                                type: "image",
+                            },
+                        },
+                        icon: {
+                            data: "https://storage.googleapis.com/locket-public/overlays/star_signs/Pisces.png",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mùa Song Ngư",
+                        text_color: "#006B61",
+                        type: "star_sign",
                     },
                 },
             ],
