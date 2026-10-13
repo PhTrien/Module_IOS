@@ -242,11 +242,16 @@ if (ua.includes("Locket")) {
             items: [
                 {
                     overlay_id: "caption:galaxy",
+                    overlay_type: "caption",
                     source: "remote",
-                    caption: {
-                        background: { colors: ["#5733FF", "#FF33B5"] },
+                    alt_text: "Galaxy",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#5733FF", "#FF33B5"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Galaxy",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -254,11 +259,16 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:peachy",
+                    overlay_type: "caption",
                     source: "remote",
-                    caption: {
-                        background: { colors: ["#FF9500", "#FF2D95"] },
+                    alt_text: "Peachy",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#FF9500", "#FF2D95"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Peachy",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -266,11 +276,16 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:sunset",
+                    overlay_type: "caption",
                     source: "remote",
-                    caption: {
-                        background: { colors: ["#FF5733", "#FFC300"] },
+                    alt_text: "Sunset",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#FF5733", "#FFC300"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Sunset",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -278,11 +293,16 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:aqua_fresh",
+                    overlay_type: "caption",
                     source: "remote",
-                    caption: {
-                        background: { colors: ["#33FF57", "#33CFFF"] },
+                    alt_text: "Aqua Fresh",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#33FF57", "#33CFFF"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Aqua Fresh",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -290,11 +310,16 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:cotton_candy",
+                    overlay_type: "caption",
                     source: "remote",
-                    caption: {
-                        background: { colors: ["#00B5FF", "#FFB6C1"] },
+                    alt_text: "Cotton Candy",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#00B5FF", "#FFB6C1"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Cotton Candy",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -302,11 +327,16 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:ocean",
+                    overlay_type: "caption",
                     source: "remote",
-                    caption: {
-                        background: { colors: ["#00C6FF", "#0072FF"] },
+                    alt_text: "Ocean",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#00C6FF", "#0072FF"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Ocean",
                         text_color: "#FFFFFF",
                         type: "static_content",
@@ -314,13 +344,154 @@ if (ua.includes("Locket")) {
                 },
                 {
                     overlay_id: "caption:bubblegum",
+                    overlay_type: "caption",
                     source: "remote",
-                    caption: {
-                        background: { colors: ["#FF85B3", "#FFDDC1"] },
+                    alt_text: "Bubblegum",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#FF85B3", "#FFDDC1"],
+                        },
                         is_editable: true,
-                        max_lines: 1,
+                        max_lines: 4,
                         text: "Bubblegum",
                         text_color: "#333333",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cyberpunk_neon",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Cyberpunk",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#00F260", "#0575E6"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Cyberpunk",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:pastel_dream",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Pastel Dream",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#A18CD1", "#FBC2EB"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Pastel Dream",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:matcha_latte",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Matcha Latte",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#A8BBA2", "#5D7052"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Matcha Latte",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:midnight_wine",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Midnight Wine",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#2C001E", "#7A003C"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Midnight Wine",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:aurora_green",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Aurora",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#43E97B", "#38F9D7"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Aurora",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:sunset_glow",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Sunset Glow",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#FA709A", "#FEE140"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Sunset Glow",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:sweet_lavender",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Sweet Lavender",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#D8B4FE", "#818CF8"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Sweet Lavender",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:monochrome_dark",
+                    overlay_type: "caption",
+                    source: "remote",
+                    alt_text: "Monochrome Dark",
+                    data: {
+                        background: {
+                            material_blur: "ultra_thin",
+                            colors: ["#232526", "#414345"],
+                        },
+                        is_editable: true,
+                        max_lines: 4,
+                        text: "Monochrome Dark",
+                        text_color: "#FFFFFF",
                         type: "static_content",
                     },
                 },
@@ -428,263 +599,7 @@ if (ua.includes("Locket")) {
                 },
             ],
         },
-        {
-            section: "🎨 Gradient Tự Gõ Chữ",
-            items: [
-                {
-                    overlay_id: "caption:galaxy",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Galaxy",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#5733FF", "#FF33B5"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Galaxy",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#5733FF", "#FF33B5"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Galaxy",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:cyberpunk_neon",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Cyberpunk",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#00F260", "#0575E6"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Cyberpunk",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#00F260", "#0575E6"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Cyberpunk",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:pastel_dream",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Pastel Dream",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#A18CD1", "#FBC2EB"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Pastel Dream",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#A18CD1", "#FBC2EB"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Pastel Dream",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:matcha_latte",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Matcha Latte",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#A8BBA2", "#5D7052"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Matcha Latte",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#A8BBA2", "#5D7052"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Matcha Latte",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:midnight_wine",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Midnight Wine",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#2C001E", "#7A003C"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Midnight Wine",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#2C001E", "#7A003C"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Midnight Wine",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:aurora_green",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Aurora",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#43E97B", "#38F9D7"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Aurora",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#43E97B", "#38F9D7"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Aurora",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:sunset_glow",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Sunset Glow",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#FA709A", "#FEE140"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Sunset Glow",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#FA709A", "#FEE140"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Sunset Glow",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:sweet_lavender",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Sweet Lavender",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#D8B4FE", "#818CF8"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Sweet Lavender",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#D8B4FE", "#818CF8"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Sweet Lavender",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:monochrome_dark",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Monochrome Dark",
-                    caption: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#232526", "#414345"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Monochrome Dark",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#232526", "#414345"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Monochrome Dark",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-            ],
-        },
+
         {
             section: "🐾 Động vật & Thú cưng",
             items: [
