@@ -16,8 +16,8 @@ if sys.platform.startswith('win'):
     except Exception:
         pass
 
-MEMBER_SINCE_UTC = "2006-06-21T17:00:00Z"
-MEMBER_SINCE_PLAIN = "2006-06-21T00:00:00Z"
+MEMBER_SINCE_UTC = "2006-06-20T17:00:00Z"
+MEMBER_SINCE_PLAIN = "2006-06-20T00:00:00Z"
 GOLD_EXPIRES = "2099-12-31T00:00:00Z"
 
 def log(msg):
