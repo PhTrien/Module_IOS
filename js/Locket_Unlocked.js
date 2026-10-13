@@ -368,6 +368,188 @@ if (ua.includes("Locket")) {
             ],
         },
         {
+            section: "🎨 Gradient Tự Gõ Chữ",
+            items: [
+                {
+                    overlay_id: "caption:cyberpunk_neon",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#00F260", "#0575E6"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:pastel_dream",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#A18CD1", "#FBC2EB"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#333333",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:matcha_latte",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#A8BBA2", "#5D7052"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:midnight_wine",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#2C001E", "#7A003C"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:aurora_green",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#43E97B", "#38F9D7"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#1E3C2B",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:sunset_glow",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FA709A", "#FEE140"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:sweet_lavender",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#D8B4FE", "#818CF8"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:monochrome_dark",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#232526", "#414345"] },
+                        is_editable: true,
+                        max_lines: 1,
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+            ],
+        },
+        {
+            section: "🐾 Động vật & Thú cưng",
+            items: [
+                {
+                    overlay_id: "caption:hoang_thuong_van_tue",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFEAA7", "#FDCB6E"] },
+                        icon: { data: "🐱", type: "emoji" },
+                        max_lines: 1,
+                        text: "Hoàng thượng vạn tuế",
+                        text_color: "#2D3436E6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:kiep_lam_sen",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FAB1A0", "#E17055"] },
+                        icon: { data: "🐕", type: "emoji" },
+                        max_lines: 1,
+                        text: "Kiếp làm sen",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:capybara_vo_tri",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#D7CCC8", "#8D6E63"] },
+                        icon: { data: "🦫", type: "emoji" },
+                        max_lines: 1,
+                        text: "Capybara vô tri",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cung_xiu_up_xiu_down",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#A29BFE", "#6C5CE7"] },
+                        icon: { data: "🐰", type: "emoji" },
+                        max_lines: 1,
+                        text: "Cưng xỉu up xỉu down",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:meo_beo_dang_yeu",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FD79A8", "#E84393"] },
+                        icon: { data: "🐾", type: "emoji" },
+                        max_lines: 1,
+                        text: "Mèo béo đáng yêu",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:an_no_ngu_ky",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#81ECEC", "#00CEC9"] },
+                        icon: { data: "💤", type: "emoji" },
+                        max_lines: 1,
+                        text: "Ăn no ngủ kỹ",
+                        text_color: "#2D3436E6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:dai_nao_gia_dinh",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF7675", "#D63031"] },
+                        icon: { data: "🐶", type: "emoji" },
+                        max_lines: 1,
+                        text: "Đại náo gia đình",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+            ],
+        },
+        {
             section: "🎨 Decorative by Dio",
             items: [
                 {
