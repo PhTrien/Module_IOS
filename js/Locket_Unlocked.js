@@ -76,6 +76,18 @@ if (ua.includes("Locket")) {
         "location",
         "weather",
         "time",
+        "music",
+        "apple_music",
+        "music_apple",
+        "spotify",
+        "review",
+        "streak",
+        "star_sign",
+        "locket_count",
+        "color",
+        "palette",
+        "poll",
+        "voting",
     ]);
     obj.entries.overlay_navigator_enabled = "true";
     obj.entries.overlays_v2_config = JSON.stringify({
@@ -95,9 +107,19 @@ if (ua.includes("Locket")) {
                     caption: { type: "standard" },
                 },
                 {
-                    overlay_id: "caption:review",
+                    overlay_id: "caption:locket_count",
                     source: "local",
-                    caption: { type: "review" },
+                    caption: { type: "locket_count" },
+                },
+                {
+                    overlay_id: "caption:color",
+                    source: "local",
+                    caption: { type: "color" },
+                },
+                {
+                    overlay_id: "caption:palette",
+                    source: "local",
+                    caption: { type: "palette" },
                 },
                 {
                     overlay_id: "caption:music",
@@ -105,14 +127,19 @@ if (ua.includes("Locket")) {
                     caption: { type: "music" },
                 },
                 {
-                    overlay_id: "caption:location",
+                    overlay_id: "caption:apple_music",
                     source: "local",
-                    caption: { type: "location" },
+                    caption: { type: "apple_music" },
                 },
                 {
                     overlay_id: "caption:weather",
                     source: "local",
                     caption: { type: "weather" },
+                },
+                {
+                    overlay_id: "caption:review",
+                    source: "local",
+                    caption: { type: "review" },
                 },
                 {
                     overlay_id: "caption:time",
@@ -125,79 +152,19 @@ if (ua.includes("Locket")) {
                     caption: { type: "streak" },
                 },
                 {
+                    overlay_id: "caption:poll",
+                    source: "local",
+                    caption: { type: "poll" },
+                },
+                {
+                    overlay_id: "caption:location",
+                    source: "local",
+                    caption: { type: "location" },
+                },
+                {
                     overlay_id: "caption:star_sign",
                     source: "local",
                     caption: { type: "star_sign" },
-                },
-            ],
-        },
-        {
-            section: "🎨 General",
-            items: [
-                {
-                    overlay_id: "caption:so_khoanh_khac",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#E5A910", "#E5A910"] },
-                        icon: { data: "❤️", type: "emoji" },
-                        is_editable: true,
-                        max_lines: 1,
-                        text: "Số khoảnh khắc",
-                        text_color: "#2C1800",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:mau_sac_palette",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#F2F2F7", "#F2F2F7"] },
-                        icon: { data: "🎨", type: "emoji" },
-                        is_editable: true,
-                        max_lines: 1,
-                        text: "Màu sắc",
-                        text_color: "#000000",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:spotify_studio",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#F2F2F7", "#F2F2F7"] },
-                        icon: { data: "🎵", type: "emoji" },
-                        is_editable: true,
-                        max_lines: 1,
-                        text: "Spotify",
-                        text_color: "#000000",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:apple_music_studio",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#F2F2F7", "#F2F2F7"] },
-                        icon: { data: "🍎", type: "emoji" },
-                        is_editable: true,
-                        max_lines: 1,
-                        text: "Apple Music",
-                        text_color: "#000000",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:binh_chon_poll",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#5B47EC", "#4B36DE"] },
-                        icon: { data: "👍👎", type: "emoji" },
-                        is_editable: true,
-                        max_lines: 1,
-                        text: "Bình chọn",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
                 },
             ],
         },
