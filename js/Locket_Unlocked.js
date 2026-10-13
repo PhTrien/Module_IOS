@@ -151,13 +151,13 @@ if (ua.includes("Locket")) {
                     overlay_id: "caption:mau_sac_palette",
                     source: "remote",
                     caption: {
-                        background: { colors: ["#FF007A", "#7928CA", "#4338CA"] },
+                        background: { colors: ["#F2F2F7", "#F2F2F7"] },
                         icon: { data: "🎨", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
-                        text_color: "#FFFFFF",
-                        type: "caption_image",
+                        text: "Màu sắc",
+                        text_color: "#000000",
+                        type: "static_content",
                     },
                 },
                 {
@@ -455,21 +455,15 @@ if (ua.includes("Locket")) {
             section: "🎨 Gradient Tự Gõ Chữ",
             items: [
                 {
-                    overlay_id: "caption:standard_typing_box",
-                    source: "local",
-                    caption: { type: "standard" },
-                },
-                {
                     overlay_id: "caption:cyberpunk_neon",
                     source: "remote",
                     caption: {
                         background: { colors: ["#00F260", "#0575E6"] },
-                        icon: { data: "⚡", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Cyberpunk",
                         text_color: "#FFFFFF",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
                 {
@@ -477,12 +471,11 @@ if (ua.includes("Locket")) {
                     source: "remote",
                     caption: {
                         background: { colors: ["#A18CD1", "#FBC2EB"] },
-                        icon: { data: "🌸", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Pastel Dream",
                         text_color: "#333333",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
                 {
@@ -490,12 +483,11 @@ if (ua.includes("Locket")) {
                     source: "remote",
                     caption: {
                         background: { colors: ["#A8BBA2", "#5D7052"] },
-                        icon: { data: "🍵", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Matcha Latte",
                         text_color: "#FFFFFF",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
                 {
@@ -503,12 +495,11 @@ if (ua.includes("Locket")) {
                     source: "remote",
                     caption: {
                         background: { colors: ["#2C001E", "#7A003C"] },
-                        icon: { data: "🍷", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Midnight Wine",
                         text_color: "#FFFFFF",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
                 {
@@ -516,12 +507,11 @@ if (ua.includes("Locket")) {
                     source: "remote",
                     caption: {
                         background: { colors: ["#43E97B", "#38F9D7"] },
-                        icon: { data: "🌌", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Aurora",
                         text_color: "#1E3C2B",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
                 {
@@ -529,12 +519,11 @@ if (ua.includes("Locket")) {
                     source: "remote",
                     caption: {
                         background: { colors: ["#FA709A", "#FEE140"] },
-                        icon: { data: "🌅", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Sunset Glow",
                         text_color: "#FFFFFF",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
                 {
@@ -542,12 +531,11 @@ if (ua.includes("Locket")) {
                     source: "remote",
                     caption: {
                         background: { colors: ["#D8B4FE", "#818CF8"] },
-                        icon: { data: "💜", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Sweet Lavender",
                         text_color: "#FFFFFF",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
                 {
@@ -555,12 +543,11 @@ if (ua.includes("Locket")) {
                     source: "remote",
                     caption: {
                         background: { colors: ["#232526", "#414345"] },
-                        icon: { data: "🖤", type: "emoji" },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Monochrome Dark",
                         text_color: "#FFFFFF",
-                        type: "caption_image",
+                        type: "static_content",
                     },
                 },
             ],
