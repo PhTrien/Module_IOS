@@ -301,266 +301,6 @@ if (ua.includes("Locket")) {
             ],
         },
         {
-            section: "🎨 Suggest Caption",
-            items: [
-                {
-                    overlay_id: "caption:galaxy",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Galaxy",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#5733FF", "#FF33B5"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Galaxy",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:peachy",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Peachy",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#FF9500", "#FF2D95"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Peachy",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:sunset",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Sunset",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#FF5733", "#FFC300"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Sunset",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:aqua_fresh",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Aqua Fresh",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#33FF57", "#33CFFF"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Aqua Fresh",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:cotton_candy",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Cotton Candy",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#00B5FF", "#FFB6C1"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Cotton Candy",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:ocean",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Ocean",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#00C6FF", "#0072FF"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Ocean",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:bubblegum",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Bubblegum",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#FF85B3", "#FFDDC1"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Bubblegum",
-                        text_color: "#333333",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:cyberpunk_neon",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Cyberpunk",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#00F260", "#0575E6"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Cyberpunk",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:pastel_dream",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Pastel Dream",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#A18CD1", "#FBC2EB"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Pastel Dream",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:matcha_latte",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Matcha Latte",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#A8BBA2", "#5D7052"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Matcha Latte",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:midnight_wine",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Midnight Wine",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#2C001E", "#7A003C"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Midnight Wine",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:aurora_green",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Aurora",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#43E97B", "#38F9D7"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Aurora",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:sunset_glow",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Sunset Glow",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#FA709A", "#FEE140"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Sunset Glow",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:sweet_lavender",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Sweet Lavender",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#D8B4FE", "#818CF8"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Sweet Lavender",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:monochrome_dark",
-                    overlay_type: "caption",
-                    source: "remote",
-                    alt_text: "Monochrome Dark",
-                    data: {
-                        background: {
-                            material_blur: "ultra_thin",
-                            colors: ["#232526", "#414345"],
-                        },
-                        is_editable: true,
-                        max_lines: 4,
-                        text: "Monochrome Dark",
-                        text_color: "#FFFFFF",
-                        type: "static_content",
-                    },
-                },
-            ],
-        },
-        {
             section: "🎨 Decorative by Locket",
             items: [
                 {
@@ -611,8 +351,6 @@ if (ua.includes("Locket")) {
                 {
                     overlay_id: "caption:good_morning",
                     source: "remote",
-                    daily_start_hour: 5,
-                    daily_end_hour: 10,
                     caption: {
                         background: { colors: ["#EF7402", "#EABF0F"] },
                         icon: { data: "☀️", type: "emoji" },
@@ -625,8 +363,6 @@ if (ua.includes("Locket")) {
                 {
                     overlay_id: "caption:goodnight",
                     source: "remote",
-                    daily_start_hour: 19.5,
-                    daily_end_hour: 24,
                     caption: {
                         background: { colors: ["#370C6F", "#575CD4"] },
                         icon: { data: "🌙", type: "emoji" },
@@ -662,99 +398,95 @@ if (ua.includes("Locket")) {
                 },
             ],
         },
-
-        {
-            section: "🐾 Động vật & Thú cưng",
-            items: [
-                {
-                    overlay_id: "caption:hoang_thuong_van_tue",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#FFEAA7", "#FDCB6E"] },
-                        icon: { data: "🐱", type: "emoji" },
-                        max_lines: 1,
-                        text: "Hoàng thượng vạn tuế",
-                        text_color: "#2D3436E6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:kiep_lam_sen",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#FAB1A0", "#E17055"] },
-                        icon: { data: "🐕", type: "emoji" },
-                        max_lines: 1,
-                        text: "Kiếp làm sen",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:capybara_vo_tri",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#D7CCC8", "#8D6E63"] },
-                        icon: { data: "🦫", type: "emoji" },
-                        max_lines: 1,
-                        text: "Capybara vô tri",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:cung_xiu_up_xiu_down",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#A29BFE", "#6C5CE7"] },
-                        icon: { data: "🐰", type: "emoji" },
-                        max_lines: 1,
-                        text: "Cưng xỉu up xỉu down",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:meo_beo_dang_yeu",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#FD79A8", "#E84393"] },
-                        icon: { data: "🐾", type: "emoji" },
-                        max_lines: 1,
-                        text: "Mèo béo đáng yêu",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:an_no_ngu_ky",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#81ECEC", "#00CEC9"] },
-                        icon: { data: "💤", type: "emoji" },
-                        max_lines: 1,
-                        text: "Ăn no ngủ kỹ",
-                        text_color: "#2D3436E6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:dai_nao_gia_dinh",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#FF7675", "#D63031"] },
-                        icon: { data: "🐶", type: "emoji" },
-                        max_lines: 1,
-                        text: "Đại náo gia đình",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-            ],
-        },
         {
             section: "🎨 Decorative by Mhale",
             items: [
+                {
+                    overlay_id: "caption:mhale",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF416C", "#8A2387"] },
+                        icon: {
+                            data: "https://mhale.io.vn/images/logomhale.jpg?v21",
+                            source: "url",
+                            type: "image",
+                        },
+                        max_lines: 1,
+                        text: "Mhale",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:chua_du_wow",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF3B65", "#FF5E7E"] },
+                        icon: { data: "★", type: "emoji" },
+                        max_lines: 1,
+                        text: "Chưa đủ wow",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:boc_trung_sit_rit",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#9B51E0", "#7B1FA2"] },
+                        max_lines: 1,
+                        text: "Bóc trúng sít rịt",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:hen_lam_moi_xui_duoc_vay_a",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#00B894", "#009688"] },
+                        icon: { data: "❕", type: "emoji" },
+                        max_lines: 1,
+                        text: "Hên lắm mới xui được vậy á",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:ra_duong_ne_moi_anh",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#2196F3", "#1976D2"] },
+                        icon: { data: "👤", type: "emoji" },
+                        max_lines: 1,
+                        text: "Ra đường nể mỗi anh",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cung_cung_di",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF9800", "#F57C00"] },
+                        max_lines: 1,
+                        text: "Cũng cũng đi",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:tuyet_doi_dien_anh",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#2C3E50", "#1A252F"] },
+                        icon: { data: "📷", type: "emoji" },
+                        max_lines: 1,
+                        text: "Tuyệt đối điện ảnh",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
                 {
                     overlay_id: "caption:rainy_afternoon",
                     source: "remote",
@@ -940,7 +672,7 @@ if (ua.includes("Locket")) {
                         },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Halloween",
                         text_color: "#FFFFFFE6",
                         type: "caption_image",
                     },
@@ -957,7 +689,7 @@ if (ua.includes("Locket")) {
                         },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Christmas",
                         text_color: "#FFFFFFE6",
                         type: "caption_image",
                     },
@@ -974,7 +706,7 @@ if (ua.includes("Locket")) {
                         },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "St. Patrick’s Day",
                         text_color: "#FFFFFFE6",
                         type: "caption_image",
                     },
@@ -991,7 +723,7 @@ if (ua.includes("Locket")) {
                         },
                         is_editable: true,
                         max_lines: 1,
-                        text: "",
+                        text: "Valentine’s Day",
                         text_color: "#FFFFFFE6",
                         type: "caption_image",
                     },
@@ -1280,8 +1012,68 @@ if (ua.includes("Locket")) {
             ],
         },
         {
-            section: "Độc lạ",
+            section: "🎨 Decorative broadly",
             items: [
+                {
+                    overlay_id: "caption:du_ba_khi_chua",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF5722", "#E64A19"] },
+                        icon: { data: "⚡", type: "emoji" },
+                        max_lines: 1,
+                        text: "Dù bá khí chưa",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:ua_alo",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#9C27B0", "#7B1FA2"] },
+                        icon: { data: "❓", type: "emoji" },
+                        max_lines: 1,
+                        text: "Ủa alo?",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:cai_gi_du_vay_troi",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#F44336", "#D32F2F"] },
+                        icon: { data: "❗", type: "emoji" },
+                        max_lines: 1,
+                        text: "Cái gì dữ vậy trời",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:nay_la_het_cuu",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#607D8B", "#455A64"] },
+                        icon: { data: "❌", type: "emoji" },
+                        max_lines: 1,
+                        text: "Này là hết cứu",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:qua_la_dien_anh",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#26A69A", "#00897B"] },
+                        icon: { data: "📷", type: "emoji" },
+                        max_lines: 1,
+                        text: "Quá là điện ảnh",
+                        text_color: "#FFFFFFE6",
+                        type: "static_content",
+                    },
+                },
                 {
                     overlay_id: "caption:doc_so_tai_khoan",
                     source: "remote",
@@ -1462,148 +1254,6 @@ if (ua.includes("Locket")) {
                         type: "static_content",
                     },
                 },
-            ],
-        },
-        {
-            section: "Trend TikTok",
-            items: [
-                {
-                    overlay_id: "caption:chua_du_wow",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#FF5349", "#EB0C00"] },
-                        icon: { data: "⭐", type: "emoji" },
-                        max_lines: 1,
-                        text: "Chưa đủ wow",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:boc_trung_sit_rit",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#9C27B0", "#7B1FA2"] },
-                        icon: { data: "🎁", type: "emoji" },
-                        max_lines: 1,
-                        text: "Bóc trúng sít rịt",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:hen_lam_moi_xui_duoc_vay_a",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#00BCD4", "#0097A7"] },
-                        icon: { data: "😅", type: "emoji" },
-                        max_lines: 1,
-                        text: "Hèn lắm mới xui được vậy á",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:ra_duong_ne_moi_anh",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#2196F3", "#1976D2"] },
-                        icon: { data: "👤", type: "emoji" },
-                        max_lines: 1,
-                        text: "Ra đường nể mỗi anh",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:cung_cung_di",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#FFC107", "#FFA000"] },
-                        icon: { data: "🚀", type: "emoji" },
-                        max_lines: 1,
-                        text: "Cũng cứng đi",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:tuyet_doi_dien_anh",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#455A64", "#263238"] },
-                        icon: { data: "📷", type: "emoji" },
-                        max_lines: 1,
-                        text: "Tuyệt đối điện ảnh",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:du_ba_khi_chua",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#FF5722", "#E64A19"] },
-                        icon: { data: "⚡", type: "emoji" },
-                        max_lines: 1,
-                        text: "Dù bá khí chưa",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:ua_alo",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#9C27B0", "#7B1FA2"] },
-                        icon: { data: "❓", type: "emoji" },
-                        max_lines: 1,
-                        text: "Ủa alo?",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:cai_gi_du_vay_troi",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#F44336", "#D32F2F"] },
-                        icon: { data: "❗", type: "emoji" },
-                        max_lines: 1,
-                        text: "Cái gì dữ vậy trời",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:nay_la_het_cuu",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#607D8B", "#455A64"] },
-                        icon: { data: "❌", type: "emoji" },
-                        max_lines: 1,
-                        text: "Này là hết cứu",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-                {
-                    overlay_id: "caption:qua_la_dien_anh",
-                    source: "remote",
-                    caption: {
-                        background: { colors: ["#26A69A", "#00897B"] },
-                        icon: { data: "📷", type: "emoji" },
-                        max_lines: 1,
-                        text: "Quá là điện ảnh",
-                        text_color: "#FFFFFFE6",
-                        type: "static_content",
-                    },
-                },
-            ],
-        },
-        {
-            section: "Cười xỉu",
-            items: [
                 {
                     overlay_id: "caption:cuoi_xiu",
                     source: "remote",
@@ -1652,11 +1302,6 @@ if (ua.includes("Locket")) {
                         type: "static_content",
                     },
                 },
-            ],
-        },
-        {
-            section: "Đời sống",
-            items: [
                 {
                     overlay_id: "caption:ngay_moi_vui_ve",
                     source: "remote",
@@ -1705,11 +1350,6 @@ if (ua.includes("Locket")) {
                         type: "static_content",
                     },
                 },
-            ],
-        },
-        {
-            section: "Gen Z Slay",
-            items: [
                 {
                     overlay_id: "caption:tinh_hoa_hoi_tu",
                     source: "remote",
@@ -1758,11 +1398,6 @@ if (ua.includes("Locket")) {
                         type: "static_content",
                     },
                 },
-            ],
-        },
-        {
-            section: "Bất ổn & Khó đỡ",
-            items: [
                 {
                     overlay_id: "caption:luon_vui_tuoi",
                     source: "remote",
@@ -1811,11 +1446,6 @@ if (ua.includes("Locket")) {
                         type: "static_content",
                     },
                 },
-            ],
-        },
-        {
-            section: "Check VAR & Hóng hớt",
-            items: [
                 {
                     overlay_id: "caption:check_var",
                     source: "remote",
