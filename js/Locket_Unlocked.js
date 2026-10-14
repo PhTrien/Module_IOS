@@ -2167,9 +2167,9 @@ if (ua.includes("Locket")) {
     obj.entries.widget_sync_token_reload_mode = "clearTokenNever";
     obj.entries.widget_frame_event = JSON.stringify({
         uid: "PhTrien",
-        url: "https://files.catbox.moe/svpw2r.png",
+        url: "https://public.locketcamera.com/locket-public/widget_frames/midautumn_2026/midautumn_2026.png",
         use_local_time_zone: true,
-        placement: "above",
+        placement: "below",
     });
 
     // ============================================================
