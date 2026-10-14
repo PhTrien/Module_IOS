@@ -2,7 +2,7 @@
 
 ## Bước 1: Tải Ứng Dụng Shadowrocket
 - Truy cập App Store trên iPhone và tìm kiếm ứng dụng **Shadowrocket** để tải về.
-- Nếu không có tài khoản để tải, bạn có thể truy cập vào [link này](https://idapple.csadata4g.me/) để lấy tài khoản và mật khẩu đăng nhập vào App Store. 
+- Nếu không có tài khoản để tải, bạn có thể truy cập vào [link này]([https://idapple.csadata4g.me/](https://dvsteam.vn/id-apple-shadowrocket)) để lấy tài khoản và mật khẩu đăng nhập vào App Store. 
     - **Lưu ý:** Chỉ đăng nhập trong App Store, không đăng nhập trong phần Cài Đặt của máy.
     - Nếu link bị hỏng, vui lòng liên hệ riêng với **Phạm Triển** để được hỗ trợ.
 
