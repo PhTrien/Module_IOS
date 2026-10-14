@@ -329,7 +329,7 @@ if (ua.includes("Locket")) {
                     overlay_id: "caption:food_korean",
                     source: "remote",
                     caption: {
-                        background: { colors: ["#FFD658", "#FFD658"] },
+                        background: { colors: ["#FFD658", "#f7d366ff"] },
                         max_lines: 1,
                         text: "존맛 😋",
                         text_color: "#000000",
