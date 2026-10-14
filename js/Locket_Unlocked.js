@@ -218,6 +218,69 @@ if (ua.includes("Locket")) {
                     },
                 },
                 {
+                    overlay_id: "caption:christmas_eve_2026",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#2FA85F", "#176B3A"] },
+                        icon: { data: "🕯️", type: "emoji" },
+                        max_lines: 1,
+                        text: "Giáng sinh an lành",
+                        localized_text: { en: "Giáng sinh an lành", vn: "Giáng sinh an lành" },
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:christmas_day_2026",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#E53935", "#A81818"] },
+                        icon: { data: "🎄", type: "emoji" },
+                        max_lines: 1,
+                        text: "Giáng sinh an lành",
+                        localized_text: { en: "Giáng sinh an lành", vn: "Giáng sinh an lành" },
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:new_years_eve_2026",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FFC64B", "#FFEDBF"] },
+                        icon: { data: "🥂", type: "emoji" },
+                        max_lines: 1,
+                        text: "Xin chào 2027!",
+                        localized_text: { en: "Xin chào 2027!", vn: "Xin chào 2027!" },
+                        text_color: "#643F00",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:new_years_day_2027",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#3B00EC", "#823FFF"] },
+                        icon: { data: "💫", type: "emoji" },
+                        max_lines: 1,
+                        text: "Xin chào 2027!",
+                        localized_text: { en: "Xin chào 2027!", vn: "Xin chào 2027!" },
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
+                    overlay_id: "caption:new_years_day_2027_alternate",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#FF0062", "#FF783F"] },
+                        max_lines: 1,
+                        text: "2027",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
                     overlay_id: "caption:forgotten_island",
                     source: "remote",
                     caption: {
@@ -2104,9 +2167,9 @@ if (ua.includes("Locket")) {
     obj.entries.widget_sync_token_reload_mode = "clearTokenNever";
     obj.entries.widget_frame_event = JSON.stringify({
         uid: "PhTrien",
-        url: "https://public.locketcamera.com/locket-public/widget_frames/midautumn_2026/midautumn_2026.png",
+        url: "https://files.catbox.moe/svpw2r.png",
         use_local_time_zone: true,
-        placement: "below",
+        placement: "above",
     });
 
     // ============================================================
