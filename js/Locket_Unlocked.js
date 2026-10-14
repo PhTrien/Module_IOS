@@ -753,8 +753,20 @@ if (ua.includes("Locket")) {
             ],
         },
         {
-            section: "🎨 Decorative by Dio",
+            section: "🎨 Decorative by Mhale",
             items: [
+                {
+                    overlay_id: "caption:rainy_afternoon",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#4B6CB7", "#182848"] },
+                        icon: { data: "🌧️", type: "emoji" },
+                        max_lines: 1,
+                        text: "Hồi chiều trời mưa",
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
                 {
                     overlay_id: "caption:feeling_cute",
                     source: "remote",
