@@ -51,11 +51,11 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: "Chúc Mừng 🎉",
+            title: "Welcome to Locket Gold 🎉",
             feature_set: [
                 {
                     title: "LOCKET GOLD PREMIUM BY MHALE🐳",
-                    body: "Tài khoản đã lên Locket Gold. Flex với hội bạn thôi nào 🔥",
+                    body: "Tài khoản đã lên Locket Gold.   Flex với hội bạn thôi nào 🔥",
                     imageURL: "https://i.ibb.co/rGfq2Yt1/logobaner.png"
                 }
             ],
